@@ -11,6 +11,7 @@
 		1AB55F372863886F00F4B0F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB55F362863886F00F4B0F0 /* ContentView.swift */; };
 		1AB55F392863886F00F4B0F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB55F382863886F00F4B0F0 /* Assets.xcassets */; };
 		1AB55F3C2863886F00F4B0F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB55F3B2863886F00F4B0F0 /* Preview Assets.xcassets */; };
+		1AB55F4428638AAA00F4B0F0 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB55F4328638AAA00F4B0F0 /* ARViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1AB55F382863886F00F4B0F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AB55F3B2863886F00F4B0F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AB55F3D2863886F00F4B0F0 /* ARViewTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ARViewTest.entitlements; sourceTree = "<group>"; };
+		1AB55F4328638AAA00F4B0F0 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				1AB55F342863886F00F4B0F0 /* ARViewTestApp.swift */,
 				1AB55F362863886F00F4B0F0 /* ContentView.swift */,
+				1AB55F4328638AAA00F4B0F0 /* ARViewContainer.swift */,
 				1AB55F382863886F00F4B0F0 /* Assets.xcassets */,
 				1AB55F3D2863886F00F4B0F0 /* ARViewTest.entitlements */,
 				1AB55F3A2863886F00F4B0F0 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AB55F372863886F00F4B0F0 /* ContentView.swift in Sources */,
+				1AB55F4428638AAA00F4B0F0 /* ARViewContainer.swift in Sources */,
 				1AB55F352863886F00F4B0F0 /* ARViewTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
