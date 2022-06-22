@@ -43,10 +43,19 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ARViewContainer(cameraARView: provideLoadedARView())
+                .gesture(TapGesture().onEnded {
+                    print("Tapped ARView")
+                })
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
+                .gesture(TapGesture().onEnded {
+                    print("Tapped SFSymbol")
+                })
             Text("Hello, world!")
+                .gesture(TapGesture().onEnded {
+                    print("Tapped Text")
+                })
         }
     }
 }
